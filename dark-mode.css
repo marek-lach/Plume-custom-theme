@@ -1,15 +1,19 @@
 html,
 body {
     background: #2c2e3e;
-    color: #fafafc;
+    color: #c7ac79;
 }
 
 ::selection {
-    background: #38ef7d !important;
+    background: #c97c73 !important;
 }
 
 ::-moz-selection {
-    background: #38ef7d !important;
+    background: #c97c73 !important;
+}
+
+::-ms-selection {
+    background: #c97c73 !important;
 }
 
 nav img {
@@ -17,16 +21,20 @@ nav img {
 }
 a,
 a:visited {
-    color: #38ef7d;
-    text-decoration: none
+    color: #c9938c;
+    text-decoration: none;
 }
 
 a::selection {
-    color: #2c2e3e
+    color: #2c2e3e;
 }
 
 a::-moz-selection {
-    color: #2c2e3e
+    color: #2c2e3e;
+}
+
+a::-ms-selection {
+    color: #2c2e3e;
 }
 
 p a {
